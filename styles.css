@@ -68,5 +68,5 @@ body {
     border-bottom-right-radius: 10px;
     left: 165px;
     transform-origin: bottom center;
-    animation: tick 1200ms ease-in-out infinite;
+    animation: tick 2000ms ease-in-out infinite;
 }

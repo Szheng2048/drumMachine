@@ -11,7 +11,31 @@
     <div class="tip">
         (Click anywhere to hear sound...)
     </div>
+    <br>
+    <div class="slidecontainer">
+        <input type="range" min="1" max="60" value="60" class="slider" id="myRange">
+    </div>
+    <br>
+    <div class="sounds">
+        <p class="bpm"></p>
 
+        <input type="checkbox" class="drum" id="metronome" value="tick" name="drum" checked>
+        <label for="metronome">Metronome</label>
+        <br>
+        <input type="checkbox" class="drum" id="kick" value="kick" name="drum">
+        <input class="when" id="kickCount" type="number" min="0" max="4">
+        <label for="kickDrum">Kick Drum</label>
+        <br>
+        <input type="checkbox" class="drum" id="snare" value="snare" name="drum">
+        <input class="when" id="snareCount" type="number" min="0" max="4">
+        <label for="snareDrum">Snare Drum</label>
+        <br>
+        <input type="checkbox" class="drum" id="hiHat" value="hiHat" name="drum">
+        <input class="when" id="hiHatCount" type="number" min="0" max="4">
+        <label for="hiHat">Hi Hat</label>
+        <br>
+    </div>
+    <br>
     <div class="metronome">
         <div class="background-left"></div>
         <div class="background-center">
