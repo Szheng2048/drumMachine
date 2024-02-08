@@ -8,10 +8,64 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="tip">
+    <!-- <div class="tip">
         (Click anywhere to hear sound...)
+    </div> -->
+    <div class="mainMenu">
+        <div>
+            <input type="submit" value="Add Note" id="addButton">
+            <input type="submit" value="Delete Note"
+            id="deleteButton">
+            <input type="submit" value="Start"
+            id="startButton">
+            <input type="submit" value="Stop"
+            id="stopButton">
+            <div>
+                <p class="sliderRange">60 bpm(beats per minute)</p>
+                <input id="slider" type="range" value="60" min="10" max="100">
+                <p>Warning!!! bpm can only be set when the beats are not playing!!!</p>
+            </div>
+        </div>
     </div>
-    <br>
+    <div class="container">
+        <div class="noteLine" id="countRange">
+            <div>
+                <p class="prettier">Count</p>
+            </div>
+            <div id="countstep"></div>
+        </div>
+        <div class="noteLine" id="tickRange">
+            <div>
+                <p class="prettier">Tick Sound</p>
+            </div>
+            <div id="tickButtons" class="buttons"></div>
+        </div>
+        <div class="noteLine" id="tockRange">
+            <div>
+                <p class="prettier">Tock Sound</p>
+            </div>
+            <div id="tockButtons" class="buttons"></div>
+        </div>
+        <div class="noteLine" id="hiHatRange">
+            <div>
+                <p class="prettier">HiHat Sound</p>
+            </div>
+            <div id="hiHatButtons" class="buttons"></div>
+        </div>
+        <div class="noteLine" id="snareRange">
+            <div>
+                <p class="prettier">Snare Sound</p>
+            </div>
+            <div id="snareButtons" class="buttons"></div>
+        </div>
+        <div class="noteLine" id="kickDrumRange">
+            <div>
+                <p class="prettier">KickDrum Sound</p>
+            </div>
+            <div id="kickButtons" class="buttons"></div>
+        </div>
+    </div>
+    <!-- <br>
     <div class="slidecontainer">
         <input type="range" min="1" max="60" value="60" class="slider" id="myRange">
     </div>
@@ -33,7 +87,8 @@
         <input type="checkbox" class="drum" id="hiHat" value="hiHat" name="drum">
         <input class="when" id="hiHatCount" type="number" min="0" max="4">
         <label for="hiHat">Hi Hat</label>
-        <br>
+        <br> -->
+<!--         
     </div>
     <br>
     <div class="metronome">
@@ -43,7 +98,7 @@
         </div>
         <div class="background-right"></div>
         <div class="arm"></div>
-    </div>
+    </div> -->
 
     <script src="main.js"></script>
 </body>

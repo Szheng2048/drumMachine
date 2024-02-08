@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 
@@ -69,4 +69,41 @@ body {
     left: 165px;
     transform-origin: bottom center;
     animation: tick 2000ms ease-in-out infinite;
+} */
+
+.mainMenu{
+    width: 100vw;
+    height: 23vh;
+    display:grid;
+    grid-template-rows: 35vh;
+    grid-template-columns: (1fr,5);
+    padding: 20px;
+    background-color:antiquewhite
+}
+
+.container{
+    height: 77vh;
+    width: 100vw;
+    background-color: rgb(88, 88, 75);
+}
+
+.noteLine{
+    color: white;
+    gap: 20px;
+    display:grid;
+    grid-template-columns:30px auto;
+    grid-template-rows: 10vh;
+    padding-left: 20px;
+}
+
+.buttons{
+    display:flex;
+    flex-direction: row;
+    gap:auto;
+}
+
+#countstep{
+    display:flex;
+    flex-direction: row;
+    gap: 13px;
 }
